@@ -1,0 +1,84 @@
+#section{
+  width: 80%;
+  background-color: rgb(142, 179, 127);
+  height: 600px;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+}
+
+.box-cancha{
+  width: 95%;
+  height: 550px;
+  background-color: rgb(142, 179, 127);
+  border: 3px solid white;
+  margin: 20px;
+  position: relative;
+  top: 4%;
+}
+
+span{
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+ .arco-derecho{
+   width: 15%;
+   height: 300px;
+   border: 2px solid white;
+   background-color: rgb(142, 179, 127);
+   position: absolute;
+   right: 0;
+   top: 130px;
+ }
+
+ .arco-izquierdo{
+   width: 15%;
+   height: 300px;
+   border: 2px solid white;
+   background-color: rgb(142, 179, 127);
+   position: absolute;
+   left: 0;
+   top: 130px;
+ }
+
+.circulo-cancha{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: 2px solid white;
+  background-color: rgb(142, 179, 127);
+  position: absolute;
+  left: 42%;
+  top: 35%;
+}
+.pelota-1{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  left: -14%;
+  bottom: -1%;
+  box-shadow: black;
+}
+
+.pelota-2{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  right: -10%;
+  top:-1%;
+}
+.pelota-3{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  right: 50%;
+  top:20%;
+}
