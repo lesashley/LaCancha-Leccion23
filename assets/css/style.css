@@ -4,6 +4,8 @@
   height: 600px;
   position: relative;
   font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .box-cancha{
